@@ -21,7 +21,7 @@ def line(katz)
 end 
 
 def now_serving(katz)
-  if katz.size > 0)
+  if katz.size > 0
     customer = katz.shift()
     puts "Currently serving #{customer}." 
   else 
